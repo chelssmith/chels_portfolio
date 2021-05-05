@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: cornsilk
+    height: 100%;
+    background-color: whitesmoke;
     position: relative;
     font-size: 20px;
     font-family:"Verdana", "Geneva", "Tahoma", "sans-serif";
@@ -19,16 +20,30 @@ li {
 
 a {
     text-decoration: none;
-    color: coral;
+    color: rgb(255, 106, 80);
     
 }
 
-header {
+header,footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: paleturquoise;
+    background-color: lightblue;
     text-align: center;
+    position: relative;
 }
 
+header {
+    position:relative;
+}
 
+.my-info {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 50%;
+    font-family:"Verdana", "Geneva", "Tahoma", "sans-serif";
+    background-color: lightblue
+}
