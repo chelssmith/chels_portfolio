@@ -55,3 +55,37 @@ footer {
     margin-top: auto;
     position: fixed;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    color: #fff;
+  }
+
+.card {
+    flex:none;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 8px;
+    color: rgb(255, 106, 80);
+  }
+  
+  .card img {
+      max-width: 300px;
+      min-width: 100px;
+      max-height: 300px;
+  }
+  
