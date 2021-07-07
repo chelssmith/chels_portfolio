@@ -2,80 +2,110 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chelsea Smith</title>
-  <script src="https://kit.fontawesome.com/39e5edea6f.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/39e5edea6f.js" crossorigin="anonymous"></script>
+    <title>Chelsea Smith</title>
 </head>
 
+
 <body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a>Chelsea Smith</a></div>
+            <ul class="menu">
+                <li><a href="#aside-info">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <header>
-    <div class="header">
-      <li><a href="about">About</a></li>
-      <li><a href="projects">Projects</a></li>
-      <li><a href="contact">Contact</a></li>
-    </div>
-  </header>
+
+    <!--aside-->
+    <aside class="aside">
+        <section class="aside-info">
+            <h3>About Me</h3>
+            <img src= "https://via.placeholder.com/200"/>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquam nam, corporis iste nesciunt mollitia repellat. Doloribus vero, earum inventore quisquam iusto sunt praesentium voluptatum a quod sint tempore ad?
+            </p>
+        </section>
+        
+    </aside>
 
 
-  <aside class="my-info">
-    <section id="about" class="about-me">
-      <h1>Chelsea Smith</h1>
-      <br>
-      <h2>About Me</h2>
-      <p>Currently studying at Rutgers Coding Bootcamp, a full stack web development course.
-      </p>
-    </section>
-  </aside>
- <h1 id="projects">Projects</h1>
-  <main>
-   
+    <article class="content">
+        <!--my projects-->
+        <section id="code-refactor" class="projects">
+            <img src="images/refactor.png" class="float-left" />
+            <h2>Code Refactor</h2>
+         
+        </section>
+        <section id="password" class="projects">
+            <img src="images/password.png" class="float-right" />
+            <h2> Random Password Generator</h2>
+    
+        </section>
+        <section id="quiz" class="projects">
+            <img src="images/quiz.png" class="float-left" />
+            <h2>Animal Quiz</h2>
+         
+        </section>
+        <section id="planner" class="projects">
+            <img src="images/dayplanner.png" class="float-right" />
+            <h2> Day Planner</h2>
+          
+        </section>
+        <section id="flicks" class="projects">
+            <img src="images/flicks.png" class="float-left" />
+            <h2>Flicks n Liqs</h2>
+       
+        </section>
+        <section id="weather" class="projects">
+            <img src="images/weather.png" class="float-right" />
+            <h2> Weather Dashboard</h2>
+        
+        </section>
+        <section id="team-profile" class="projects">
+            <img src="images/work.png" class="float-left" />
+            <h2>Team Profile</h2>
+          
+        </section>
+        <section id="note" class="projects">
+            <img src="images/note.png" class="float-right" />
+            <h2>Note Taker</h2>
+        
+        </section>
+        <section id="employee" class="projects">
+            <img src="images/employee.png" class="float-left" />
+            <h2> Employee Management System</h2>
+        
+        </section>
+        <section id="ecomm" class="projects">
+            <img src="images/ecomm.gif" class="float-right" />
+            <h2>E-Commerce Backend</h2>
+          
+        </section>
+        <section id="tech" class="projects">
+            <img src="images/techblog.gif" class="float-left" />
+            <h2>Tech Blog</h2>
+           
+        </section>
+    </article>
 
-    <section class="card">
-      <header>Code Refactor</header>
-      <img src="./images/01-html-css-git-homework-demo.png"/>
-    </section>
 
-    <section class="card">
-      <header>Portfolio</header>
-      <img src="./images/Screen Shot 2021-05-05 at 11.18.46 PM.png"/>
-    </section>
+    <footer>
+        <h3 id="contact">Contact Me</h3>
+        <a href="mailto:smith2chelsea2@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/chelssmith"><i class="fab fa-github-square"></i></a>
 
-    <section class="card">
-      <header>Password Generator</header>
-      <img src="./images/03-javascript-homework-demo.png"/>
-    </section>
+        Copyright © 2021
+    </footer>
 
-    <section class="card">
-      <header>Quiz</header>
-      <img src="./images/quiz.gif"/>
-    </section>
-
-    <section class="card">
-      <header>Day Planner</header>
-      <img src="./images/planer.gif"/>
-    </section>
-
-    <section class="card">
-      <header>Project 1</header>
-      <img src="./images/flickscroll.gif"/>
-    </section>
-
-  </main>
-
-  <br>
-  <section class="contact-me">
-    <h1 id="contact">Contact Me</h1>
-    <ul>
-      <li><a href="mailto:smith2chelsea2@gmail.com"><i class="fas fa-envelope"></i></a></li>
-      <li><a href="https://github.com/chelssmith"><i class="fab fa-github-square"></i></a></li>
-    </ul>
-  </section>
-  </br>
 </body>
 
 </html>
